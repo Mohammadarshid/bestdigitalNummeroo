@@ -10,12 +10,12 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className=" m-8 mt-6 text-white-500 px-[32px] min-h-auto max-w-[min(90%,1280px)] bg-blue-600">
+      <footer className=" mt-6 text-white-500 px-[32px] min-h-auto  bg-blue-600">
         <div className="mt-2 text-[18px] leading-[22.4px]] text-left align-middle text-[#9B96B0] h-[70px] w-[384px] inline-block ">
           <img src="https://storage.googleapis.com/msgsndr/Poa647Oe1YUX8DVrwFdy/media/67456d87b115f43b4135f2cf.png" />
         </div>
         <div
-          class="font-family-inter text-base leading-relaxed text-decoration-none tracking-normal 
+          className="font-family-inter text-base leading-relaxed text-decoration-none tracking-normal 
         bg-white bg-position-0-0 text-989680 h-67 w-96 display-block transition-all box-border"
         >
           <p>
@@ -198,7 +198,7 @@ const Footer = () => {
           <div className="text-[16px]">
             <p>&copy;2024 Nummero.All rights reserved.</p>
           </div>
-          <div class="text-[16px] ml-[503px]">
+          <div className="text-[16px] ml-[503px]">
             <p>Privacy Policy Terms and Services</p>
           </div>
         </div>

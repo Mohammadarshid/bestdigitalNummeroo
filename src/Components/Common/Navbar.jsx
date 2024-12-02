@@ -25,12 +25,12 @@ const Navbar = () => {
           Home
         </button>
 
-        <div class="relative group">
+        <div className="relative group">
           <a href="https://nummero.com/services/" className="btn">
             Services
           </a>
           <svg
-            class=" font-semibold text-base text-left  text-[#29A9E0] h-4 w-4 inline-block overflow-hidden cursor-pointer "
+            className=" font-semibold text-base text-left  text-[#29A9E0] h-4 w-4 inline-block overflow-hidden cursor-pointer "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -38,9 +38,9 @@ const Navbar = () => {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="m1 1 4 4 4-4"
             />
           </svg>
@@ -120,7 +120,7 @@ const Navbar = () => {
         <div className="relative group">
           <button className="btn">Product Suite</button>
           <svg
-            class=" font-semibold text-base text-left  text-[#29A9E0] h-4 w-4 inline-block overflow-hidden cursor-pointer "
+            className=" font-semibold text-base text-left  text-[#29A9E0] h-4 w-4 inline-block overflow-hidden cursor-pointer "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -128,9 +128,9 @@ const Navbar = () => {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="m1 1 4 4 4-4"
             />
           </svg>
